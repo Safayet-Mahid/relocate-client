@@ -1,0 +1,40 @@
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),
+    url("../../../../images/image\ 12.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 93vh;
+  width: 100%;
+  position: relative;
+}
+.custom-font {
+  font-family: "Smith-Allison", sans-serif;
+}
+
+.hero h3 {
+  font-size: 300px;
+  display: flex;
+  align-items: flex-start;
+  /* line-height: 0; */
+}
+
+.hero h2 {
+  color: #ffc700;
+  font-family: Smith Allison;
+  font-size: 340px;
+  font-family: "Smith-Allison", sans-serif;
+  display: flex;
+  align-items: flex-end;
+}
+.explore-btn {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px dotted white;
+  margin-right: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}

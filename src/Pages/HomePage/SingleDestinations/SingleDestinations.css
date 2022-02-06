@@ -1,0 +1,20 @@
+.destination {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 310px;
+  margin: auto;
+  object-fit: contain;
+  border-radius: 5px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.destination-body {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 3.5rem;
+  border-radius: 5px;
+}

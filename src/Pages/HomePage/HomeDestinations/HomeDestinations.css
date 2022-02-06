@@ -1,0 +1,24 @@
+.home-destinations h2 {
+  color: #ffd600;
+  font-family: "Smith-Allison", sans-serif;
+  font-size: 200px;
+  line-height: 0;
+}
+.home-destinations h3::after {
+  content: " ";
+  display: block;
+  height: 1rem;
+  background-color: #41d6c7;
+  width: 2.5%;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 0.5rem;
+}
+.home-destinations {
+  background: linear-gradient(
+    180deg,
+    #00beac 43.53%,
+    rgba(0, 190, 172, 0) 100%
+  );
+  color: white;
+}

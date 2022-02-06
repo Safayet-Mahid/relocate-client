@@ -1,0 +1,11 @@
+a {
+  margin: 0 1.5em;
+  font-weight: bold;
+}
+.logo {
+  font-family: "Smith-Allison", sans-serif;
+  font-size: 82px;
+  line-height: 0.2;
+  font-weight: 400;
+  color: #0ca296;
+}

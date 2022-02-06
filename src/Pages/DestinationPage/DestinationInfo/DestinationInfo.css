@@ -1,0 +1,31 @@
+.destination-info button {
+  color: #565656;
+  font-weight: 700;
+  margin: 0 10px;
+  transition: 1s;
+  position: relative;
+}
+.destination-info button:hover,
+.destination-info button:focus {
+  color: #00a77f;
+  /* border-bottom: 2px solid #00a77f; */
+}
+
+.destination-info button:focus:after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  background: #00a77f;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  left: calc(50% - 8px);
+}
+.destination-info {
+  color: #565656;
+}
+.articles .banner-body {
+  padding: 0px 7px;
+  left: 0;
+  top: 15%;
+}
