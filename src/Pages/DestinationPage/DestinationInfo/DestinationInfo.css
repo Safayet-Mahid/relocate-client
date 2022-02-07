@@ -29,3 +29,16 @@
   left: 0;
   top: 15%;
 }
+.info-parent {
+  position: relative;
+}
+.info-parent img {
+  filter: brightness(0.7);
+  border-radius: 10px;
+}
+.info-child {
+  position: absolute;
+  color: white;
+  top: 60%;
+  padding: 0 10px;
+}

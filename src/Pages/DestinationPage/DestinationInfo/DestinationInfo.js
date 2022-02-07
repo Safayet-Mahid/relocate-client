@@ -94,26 +94,26 @@ const DestinationInfo = ({ city }) => {
 
 
             </div>
-            <div className='articles'>
+            <div className='articles border'>
                 <h4 className='uppercase text-left mt-5 font-medium'>Articles about paraty</h4>
-                <div className='flex justify-between gap-6 mt-5 text-left'>
-                    <div className='destination-banner'>
-                        <img className='w-full ' src={articleImage1} alt="" />
-                        <div className='banner-body'>
+                <div className='flex justify-between gap-3 mt-5 text-left'>
+                    <div className='flex-1 info-parent'>
+                        <img className='w-full h-full ' src={articleImage1} alt="" />
+                        <div className='info-child'>
                             <h6 className='font-medium '>Expat Life in Brazil: Living the Dream in South America</h6>
                             <p className='uppercase text-xs'>www.magnificentworld.com</p>
                         </div>
                     </div>
-                    <div className='destination-banner'>
-                        <img className='w-full ' src={articleImage2} alt="" />
-                        <div className='banner-body'>
+                    <div className='flex-1 info-parent'>
+                        <img className='w-full h-full ' src={articleImage2} alt="" />
+                        <div className='info-child'>
                             <h6 className='font-medium '>Expat Life in Brazil: Living the Dream in South America</h6>
                             <p className='uppercase text-xs'>www.magnificentworld.com</p>
                         </div>
                     </div>
-                    <div className='destination-banner'>
-                        <img className='w-full' src={articleImage3} alt="" />
-                        <div className='banner-body'>
+                    <div className='flex-1 info-parent'>
+                        <img className='w-full h-full' src={articleImage3} alt="" />
+                        <div className='info-child'>
                             <h6 className='font-medium'>Expat Life in Brazil: Living the Dream in South America</h6>
                             <p className='uppercase text-xs'>www.magnificentworld.com</p>
                         </div>
@@ -122,7 +122,7 @@ const DestinationInfo = ({ city }) => {
 
             </div>
 
-            }
+
         </div>
     );
 };
