@@ -7,7 +7,7 @@ const DestinationStat = ({ city }) => {
     // console.log(stat1?.rent)
 
     return (
-        <div className='container mx-auto '>
+        <div className='container mx-auto mb-9 '>
             {/* general info of the city */}
             <div className='mx-12'>
                 <div className='flex border rounded-md justify-between p-3 text-left mb-9' >

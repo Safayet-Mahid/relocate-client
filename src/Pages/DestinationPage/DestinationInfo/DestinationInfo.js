@@ -77,7 +77,7 @@ const DestinationInfo = ({ city }) => {
     // console.log(infoData)
     return (
 
-        <div className='destination-info container mx-auto text-left px-9'>
+        <div className='destination-info container mx-auto text-left px-9 mb-7'>
             <nav>
                 <button onClick={() => setActiveNav("about")}>ABOUT</button>
                 <button onClick={() => setActiveNav("neighbourhoods")}>NEIGHBORHOODS</button>
@@ -94,27 +94,27 @@ const DestinationInfo = ({ city }) => {
 
 
             </div>
-            <div className='articles border'>
+            <div className='articles'>
                 <h4 className='uppercase text-left mt-5 font-medium'>Articles about paraty</h4>
                 <div className='flex justify-between gap-3 mt-5 text-left'>
                     <div className='flex-1 info-parent'>
                         <img className='w-full h-full ' src={articleImage1} alt="" />
                         <div className='info-child'>
-                            <h6 className='font-medium '>Expat Life in Brazil: Living the Dream in South America</h6>
+                            <h6 className='font-medium md:text-sm '>Expat Life in Brazil: Living the Dream in South America</h6>
                             <p className='uppercase text-xs'>www.magnificentworld.com</p>
                         </div>
                     </div>
                     <div className='flex-1 info-parent'>
                         <img className='w-full h-full ' src={articleImage2} alt="" />
                         <div className='info-child'>
-                            <h6 className='font-medium '>Expat Life in Brazil: Living the Dream in South America</h6>
+                            <h6 className='font-medium md:text-sm '>Expat Life in Brazil: Living the Dream in South America</h6>
                             <p className='uppercase text-xs'>www.magnificentworld.com</p>
                         </div>
                     </div>
                     <div className='flex-1 info-parent'>
                         <img className='w-full h-full' src={articleImage3} alt="" />
                         <div className='info-child'>
-                            <h6 className='font-medium'>Expat Life in Brazil: Living the Dream in South America</h6>
+                            <h6 className='font-medium md:text-sm'>Expat Life in Brazil: Living the Dream in South America</h6>
                             <p className='uppercase text-xs'>www.magnificentworld.com</p>
                         </div>
                     </div>

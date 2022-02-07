@@ -5,7 +5,7 @@ import DestinationStat from '../DestinationStat/DestinationStat';
 const DestinationBody = ({ city }) => {
     return (
         <div className='container mx-auto mt-9'>
-            <div className='flex justify-between'>
+            <div className='flex justify-between lg:flex-row md:flex-col sm:flex-col'>
                 <DestinationInfo city={city}></DestinationInfo>
                 <DestinationStat city={city}></DestinationStat>
 
