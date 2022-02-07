@@ -63,7 +63,7 @@ const DestinationStat = ({ city }) => {
                         <h6 className='font-bold text-xl mb-3' style={{ color: " rgba(0, 0, 0, 0.4)" }}>RENT</h6>
                         <div className='flex my-2 ' >
                             <i className='bx bx-dollar text-lg font-bold ' ></i>
-                            <p className='font-medium text-2xl mb-3'></p>
+                            <p className='font-medium text-2xl mb-3'>1800</p>
                         </div>
                         <p className='text-sm' style={{ color: "#565656" }}>This is for a 3 bedroom(40Sqm) within city center.</p>
                     </div>
@@ -72,7 +72,7 @@ const DestinationStat = ({ city }) => {
                         <div className='flex my-2 '>
 
                             <i className='bx bx-dollar text-xl font-bold ' ></i>
-                            <p className='font-medium mb-3 text-2xl'></p>
+                            <p className='font-medium mb-3 text-2xl'>1600</p>
                         </div>
                         <p className='text-sm' style={{ color: "#565656" }}>The average cost of Groceries for a family of 4.</p>
                     </div>
@@ -81,7 +81,7 @@ const DestinationStat = ({ city }) => {
                         <div className='flex my-2 '>
 
                             <i className='bx bx-dollar text-xl font-bold ' ></i>
-                            <p className='font-medium mb-3 text-2xl'></p>
+                            <p className='font-medium mb-3 text-2xl'>2200</p>
                         </div>
                         <p className='text-sm' style={{ color: "#565656" }}>The average cost of Groceries for a family of 4.</p>
                     </div>
@@ -90,7 +90,7 @@ const DestinationStat = ({ city }) => {
                         <div className='flex my-2 '>
 
                             <i className='bx bx-dollar font-bold text-xl ' ></i>
-                            <p className='font-medium mb-3 text-2xl'></p>
+                            <p className='font-medium mb-3 text-2xl'>5600</p>
                         </div>
                         <p className='text-sm' style={{ color: "#565656" }}>The average cost of Groceries for a family of 4.</p>
                     </div>
@@ -105,7 +105,7 @@ const DestinationStat = ({ city }) => {
                         <h6 className='font-bold text-xl mb-3' style={{ color: " rgba(0, 0, 0, 0.4)" }}>RENT</h6>
                         <div className='flex my-2 ' >
                             <i className='bx bx-dollar text-lg font-bold ' ></i>
-                            <p className='font-medium text-2xl mb-3'></p>
+                            <p className='font-medium text-2xl mb-3'>1100</p>
                         </div>
                         <p className='text-sm' style={{ color: "#565656" }}>This is for a 3 bedroom(40Sqm) within city center.</p>
                     </div>
@@ -114,7 +114,7 @@ const DestinationStat = ({ city }) => {
                         <div className='flex my-2 '>
 
                             <i className='bx bx-dollar text-xl font-bold ' ></i>
-                            <p className='font-medium mb-3 text-2xl'></p>
+                            <p className='font-medium mb-3 text-2xl'>900</p>
                         </div>
                         <p className='text-sm' style={{ color: "#565656" }}>The average cost of Groceries for a family of 4.</p>
                     </div>
@@ -123,7 +123,7 @@ const DestinationStat = ({ city }) => {
                         <div className='flex my-2 '>
 
                             <i className='bx bx-dollar text-xl font-bold ' ></i>
-                            <p className='font-medium mb-3 text-2xl'></p>
+                            <p className='font-medium mb-3 text-2xl'>300</p>
                         </div>
                         <p className='text-sm' style={{ color: "#565656" }}>The average cost of Groceries for a family of 4.</p>
                     </div>
@@ -132,7 +132,7 @@ const DestinationStat = ({ city }) => {
                         <div className='flex my-2 '>
 
                             <i className='bx bx-dollar font-bold text-xl ' ></i>
-                            <p className='font-medium mb-3 text-2xl'></p>
+                            <p className='font-medium mb-3 text-2xl'>3300</p>
                         </div>
                         <p className='text-sm' style={{ color: "#565656" }}>The average cost of Groceries for a family of 4.</p>
                     </div>
