@@ -9,8 +9,22 @@
   border-radius: 5px;
   border-radius: 5px;
   position: relative;
+  transition: all 1s;
 }
 
+.onHover {
+  display: none;
+  color: #ffc700;
+}
+.destination:hover h4,
+.destination:hover h5 {
+  visibility: hidden;
+}
+
+.destination:hover .onHover {
+  display: block;
+  transform: translateY(-20);
+}
 .destination-body {
   width: 100%;
   position: absolute;
