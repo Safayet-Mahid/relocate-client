@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import "./DestinationInfo.css"
 
-const info = [
+const infoLocal = [
     {
         title: "about",
         description: `Named for a local swamp fish, Paraty sits on Brazil's southeastern coast, 125 miles south of Rio, with the Bocaino Mountains at its back. The small colonial town's center is a national historic monument with well-preserved buildings on its pedestrian-only streets. Take a boat trip out into the bay to the flotillas of islands and coves nearby.
@@ -45,8 +45,36 @@ const info = [
     },
 ]
 
-const DestinationInfo = () => {
+const DestinationInfo = ({ city }) => {
+    const { articleImage1, articleImage2, articleImage3, info } = city;
+    // console.log(info[0].title)
+
     const [activeNav, setActiveNav] = useState('about');
+    // const infoData = [
+    //     {
+    //         title: `${info[0].title}`,
+    //         description: `${info[0].description}`
+    //     },
+    //     {
+    //         title: `${info[1].title}`,
+    //         description: `${info[1].description}`
+    //     },
+    //     {
+    //         title: `${info[2].title}`,
+    //         description: `${info[2].description}`
+    //     },
+    //     {
+    //         title: `${info[3].title}`,
+    //         description: `${info[3].description}`
+    //     },
+    //     {
+    //         title: `${info[4].title}`,
+    //         description: `${info[4].description}`
+    //     },
+    // ]
+
+
+    // console.log(infoData)
     return (
 
         <div className='destination-info container mx-auto text-left px-9'>
@@ -57,9 +85,10 @@ const DestinationInfo = () => {
                 <button onClick={() => setActiveNav("jobs")}>JOBS</button>
                 <button onClick={() => setActiveNav("leisureandparks")}>LEISURE AND PARK</button>
             </nav>
+
             <div className='my-9 mx-13 text-left '>
                 {
-                    info.map(single => single.title === activeNav && <div className='container mx-auto mt-5 text-left ' style={{ whiteSpace: "pre-wrap", }}>{single.description}</div>)
+                    infoLocal.map(single => single.title === activeNav && <div className='container mx-auto mt-5 text-left ' style={{ whiteSpace: "pre-wrap", }}>{single.description}</div>)
 
                 }
 
@@ -69,21 +98,21 @@ const DestinationInfo = () => {
                 <h4 className='uppercase text-left mt-5 font-medium'>Articles about paraty</h4>
                 <div className='flex justify-between gap-6 mt-5 text-left'>
                     <div className='destination-banner'>
-                        <img className='w-full' src="https://www.thewildlifediaries.com/wp-content/uploads/2019/01/Saco-do-Mamangua-Cruise-with-Junior.jpg" alt="" />
+                        <img className='w-full ' src={articleImage1} alt="" />
                         <div className='banner-body'>
                             <h6 className='font-medium '>Expat Life in Brazil: Living the Dream in South America</h6>
                             <p className='uppercase text-xs'>www.magnificentworld.com</p>
                         </div>
                     </div>
                     <div className='destination-banner'>
-                        <img className='w-full' src="https://www.thewildlifediaries.com/wp-content/uploads/2019/01/Saco-do-Mamangua-Cruise-with-Junior.jpg" alt="" />
+                        <img className='w-full ' src={articleImage2} alt="" />
                         <div className='banner-body'>
                             <h6 className='font-medium '>Expat Life in Brazil: Living the Dream in South America</h6>
                             <p className='uppercase text-xs'>www.magnificentworld.com</p>
                         </div>
                     </div>
                     <div className='destination-banner'>
-                        <img className='w-full' src="https://www.thewildlifediaries.com/wp-content/uploads/2019/01/Saco-do-Mamangua-Cruise-with-Junior.jpg" alt="" />
+                        <img className='w-full' src={articleImage3} alt="" />
                         <div className='banner-body'>
                             <h6 className='font-medium'>Expat Life in Brazil: Living the Dream in South America</h6>
                             <p className='uppercase text-xs'>www.magnificentworld.com</p>
@@ -93,7 +122,7 @@ const DestinationInfo = () => {
 
             </div>
 
-
+            }
         </div>
     );
 };

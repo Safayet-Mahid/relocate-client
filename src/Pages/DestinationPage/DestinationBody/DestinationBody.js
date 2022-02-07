@@ -2,12 +2,12 @@ import React from 'react';
 import DestinationInfo from '../DestinationInfo/DestinationInfo';
 import DestinationStat from '../DestinationStat/DestinationStat';
 
-const DestinationBody = () => {
+const DestinationBody = ({ city }) => {
     return (
         <div className='container mx-auto mt-9'>
             <div className='flex justify-between'>
-                <DestinationInfo></DestinationInfo>
-                <DestinationStat></DestinationStat>
+                <DestinationInfo city={city}></DestinationInfo>
+                <DestinationStat city={city}></DestinationStat>
 
             </div>
             <div className='flex justify-between items-center px-5 rounded-lg' style={{ backgroundColor: "#00BEAC", width: "100%", }}>

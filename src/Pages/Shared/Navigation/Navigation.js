@@ -7,7 +7,7 @@ const Navigation = () => {
         <div className='container mx-auto'>
             <nav className='flex justify-between align-center mx-auto py-5 '>
                 <div className=''>
-                    <NavLink to="#" className="logo" >relocate</NavLink>
+                    <NavLink to="/" className="logo" >relocate</NavLink>
                 </div>
                 <div>
                     <NavLink to="/destination">Destinations</NavLink>
